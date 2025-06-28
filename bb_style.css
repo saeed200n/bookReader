@@ -1,1 +1,74 @@
+.ti-download{
+    display: none!important;
+}
+.fullBook {
+    width: 10rem;
+    height: 4rem;
+    background-color: rgba(232,169,44,1);
+    border-radius: .5rem;
+    box-shadow: 3px 4px 5px #999;
+    margin: auto;
+    color: #000;
+    display: flex;
+    font-size: 12pt;
+    justify-content: center;
+    align-items: center;
+    /* font-weight: 900!important; */
+}
+.fullBook:hover{
+  box-shadow: 0 0 0;
+  cursor:pointer;
+}
+.myBooksBought {
+    background-color: #fff;
+    padding: 0.5rem;
+    border-radius: .4rem;
+    border: 5px solid #ccc;
+}
+.myBooksBought h4{
+  display: flex;
+}
+.myBooksBought h4::after{
+    content: ''!important;
+    background-image: url("asset/img/book-stack-26.png")!important;
+    width: 1.5rem!important;
+    height: 1.5rem!important;
+    display: block;
+    background-size: contain;
+    background-repeat: no-repeat;
+  margin-right:.5rem
+}
+
+.myBooksBought .product-detail-wrapper{
+  display:none;
+}
+
+.myBooksBought .hr_t {
+    background-color: #999;
+    height: 3px;
+    margin: 0;
+}
+
+.myBooksBought .product-block-inner {
+    border: 3px solid #ccc;
+    border-radius: .4rem;
+    padding: .5rem;
+    width: 8rem;
+}
+.myBooksBought .container-inner:hover{
+  box-shadow: 0 0 0 !important;
+}
+
+.myBooksBought .container-inner{
+    box-shadow: 0 0 9px #999;
+    border-radius: .4rem;
+}
+.myBooksBought ul.products {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#boxReader .df-ui-share{
+  display:none!important;
+}
 
